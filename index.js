@@ -34,3 +34,31 @@ const ab = {} && false && null; //return 1st negative value
 console.log(abc, ab);
 
 // JSON.parse() // convert json to javasctipt value
+const name ="prachi",
+const age = 20;
+console.log(isNaN(name),isNaN(age))
+
+let myArray = [1,2,3,4];
+console.log('abc',myArray.unshift(),myArray
+);
+
+console.log(myArray.map(parseInt));
+console.log(myArray.map(ele =>{
+ return parseInt();
+}))
+console.log(typeof new Number(2));
+
+
+var foo = [];
+
+for(let i =0;i<10;i++){
+  (function(){
+    let y = i;
+      foo[i] = function() {
+        return y
+      };
+  })()
+}
+console.log(foo[7]())
+
+console.log(typeof !" ") // not of all  is false if it is a string and number type
