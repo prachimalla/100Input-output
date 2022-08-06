@@ -62,3 +62,42 @@ for(let i =0;i<10;i++){
 console.log(foo[7]())
 
 console.log(typeof !" ") // not of all  is false if it is a string and number type
+
+
+console.log('i am ',mydata)
+var mydata = 'prachi'
+function data(){
+  console.log('data',mydata)
+}
+
+function yourData(){
+  console.log('yourData',mydata)
+  var mydata ="malla";
+  data();
+  console.log('abc',mydata)
+}
+yourData()
+
+
+var k = 10;
+console.log('numbe a',k);//10
+function fn(){
+  console.log('numbe b',k);//undefind
+  var k = 20;
+  k++;
+  console.log('numbe c',k);//21
+
+  if(k){
+var k = 30;
+k++;
+console.log('numbe d',k);//31
+  }
+  console.log('numbe e',k);//21
+}
+fn()
+console.log('numbe a',k);//10
+
+
+
+d.push(2)
+console.log(d)
