@@ -111,3 +111,5 @@ function mixArgumant(){
 console.log(arguments)
 }
 mixArgumant('abc',1,myPromise)
+const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
+console.log(fruits.slice(2, 3),fruits.splice(2,2,'abp'),fruits)
