@@ -101,3 +101,13 @@ console.log('numbe a',k);//10
 
 d.push(2)
 console.log(d)
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("foo");
+  }, 300);
+});
+
+function mixArgumant(){
+console.log(arguments)
+}
+mixArgumant('abc',1,myPromise)
